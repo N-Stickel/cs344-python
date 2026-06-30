@@ -1,0 +1,8 @@
+A = input ("Please enter number A: ")
+B = input ("Please enter number B: ")
+intA = int(A)
+intB = int(B)
+print ("Sum of A and B:", intA + intB)
+print ("Difference of A and B:", intA - intB)
+print (intA)
+print (intB)
