@@ -1,0 +1,37 @@
+This is a second file containing text with which to test the mini_app python program.
+Copied below is the assignment guidelines:
+
+To complete this assignment, you must complete the following steps
+Step 1: Choose a mini‑app scenario
+Select one of the following example scenarios:
+Grade report analyzer: Read a file of student names and scores, compute summary statistics (count, average, highest, lowest).
+Expense tracker: Read a file of transactions (amount and category), compute totals per category and overall.
+Word length report: Read a text file and count how many words fall into different length ranges (e.g., 1–3, 4–6, 7+ characters). 
+Your mini‑app must:
+Read from at least one text file.
+Perform some aggregation or analysis.
+Print a clear, human‑readable summary report. 
+Step 2: Prepare your Week 6 folder and sample data
+In your cs344-python repository, create a folder named week6.
+Inside week6, create:
+A Python file for your app (for example, mini_app.py).
+At least one sample input file (for example, grades.txt, expenses.txt, or sample_text.txt). 
+Step 3: Implement file reading and parsing
+In your Python file:
+Open the input file safely using with open(...) as f:.
+Read the file line by line.
+Parse each line into meaningful pieces (e.g., name and score, amount and category, or words). 
+Handle simple malformed lines gracefully (for example, skip empty lines and print a brief warning if a line cannot be parsed). 
+Step 4: Process data and generate a report
+Use appropriate data structures (lists, dictionaries, counters, accumulators) to:
+Track totals, counts, or other required statistics. 
+After processing all lines, compute and print a summary report, such as:
+Number of records processed.
+Averages or totals.
+Category‑level breakdowns (if applicable). 
+Ensure the output is readable and labeled clearly so that a non‑programmer could understand it. 
+Step 5: Testing and debugging
+Create at least two different sample input files to test your app (for example, small and slightly larger data sets, or files with and without malformed lines).
+Run your program with each file and verify that the results match your expectations.
+If you encounter bugs (e.g., file not found, parsing issues), fix them and re‑test.
+Add at least one brief comment in your code describing a bug you fixed or a defensive check you added (for example, # Skip empty lines to avoid index errors). 
